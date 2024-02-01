@@ -11,7 +11,7 @@ function App() {
         <Header />
         <div className="contentContainer">
           <Routes>
-            <Route path='/allCats/' element={ <AllCats /> }/>
+            <Route path='/' element={ <AllCats /> }/>
             <Route path='/favoriteCats/' element={ <FavoriteCats /> }/>
           </Routes>
         </div>
