@@ -1,0 +1,31 @@
+.headerContainer {
+  height: 64px;
+  color: white;
+  background-color: #2196F3;
+  box-shadow: 0 5px 10px grey;
+  display: flex;
+  padding: 0 62px;
+}
+
+.linkContainer {
+  display: flex;
+}
+
+.linkPage {
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+}
+
+.pageSuccess {
+  background-color: #1E88E5;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+}

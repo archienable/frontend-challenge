@@ -1,0 +1,35 @@
+.allCatsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  gap: 48px;
+  overflow: visible !important;
+}
+
+.allCatsItem {
+  width: 225px;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.1s linear;
+  cursor: pointer;
+}
+
+.allCatsItem:hover {
+  box-shadow: 0 5px 10px grey;
+  transform: scale(1.14);
+}
+
+.svg path + path {
+  display: none;
+}
+
+.svg:hover path + path {
+  display: block;
+}
+
+.loader {
+  margin-top: 48px;
+  margin-bottom: 31px;
+}
